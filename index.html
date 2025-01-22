@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto com Bootstrap</title>
+    <title>Mercado 24h</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,28 +14,28 @@
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0 section-title">Nome do restaurante</h1>
+            <h1 class="navbar-brand m-0 section-title">Mercado 24h</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a class="nav-link" href="#sobre-o-restaurante">
-                            <i class="bi bi-house-door me-2"></i>
-                            Sobre o restaurente
+                        <a class="nav-link" href="#sobre-o-mercado">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a class="nav-link" href="#eventos">
+                        <a class="nav-link" href="#promocoes">
                             <i class="bi bi-calendar-check me-2"></i>
-                            Eventos
+                            Promoções
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a class="nav-link" href="#cardapio">
+                        <a class="nav-link" href="#produtos">
                             <i class="bi bi-card-text me-2"></i>
-                            Nosso cardápio
+                            Produtos
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
@@ -49,17 +49,17 @@
         </div>
     </header>
     <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
-        <section id="sobre-o-restaurante">
+        <section id="sobre-o-mercado">
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./images/images/slides/slide1.png" class="d-block w-100" alt="Imagem 1">
+                        <img src="https://media.istockphoto.com/id/1973410812/pt/foto/two-female-friends-shopping-in-supermarket.jpg?s=2048x2048&w=is&k=20&c=3D5GuT3I0-I8_h49FX8cYRgQwPQyDIPu6aGuH7lOkHc=" class="d-block w-100" alt="Imagem 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="./images/images/slides/slide2.png" class="d-block w-100" alt="Imagem 2">
+                        <img src="https://media.istockphoto.com/id/1973411352/pt/foto/man-buying-meat-at-grocery-store.jpg?s=2048x2048&w=is&k=20&c=Jg-n3YJ1Jzx8lsA2VC8CtlPciqr3_nQnHaNfTUYUmxM=" class="d-block w-100" alt="Imagem 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="./images/images/slides/slide3.png" class="d-block w-100" alt="Imagem 3">
+                        <img src="https://media.istockphoto.com/id/1426458619/pt/foto/happy-man-using-mobile-phone-app-while-buying-groceries-in-supermarket-and-looking-at-camera.jpg?s=2048x2048&w=is&k=20&c=bscIWsoyArtGoEZkeV8-2c6yutJVcy4fLtcyAkhYk-A=" class="d-block w-100" alt="Imagem 3">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -78,10 +78,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5">
-                            <img src="images/images/restaurante.jpg" class="d-block w-100 rounded" alt="">
+                            <img src="https://media.istockphoto.com/id/1556119299/pt/foto/empty-aisles-at-a-supermarket.jpg?s=2048x2048&w=is&k=20&c=gIPj26TkpO-34QS4MtMw3ay7Xl5o2pDx0qgGrvP2S-U=" class="d-block w-100 rounded" alt="">
                         </div>
                         <div class="col-md-7 mt-3 mt-md-0">
-                            <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+                            <h2 class="section-title">Sobre <span class="text-colored">o Mercado 24h</span></h2>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis totam temporibus vel alias esse, veritatis laudantium ea voluptate maiores sed iure similique adipisci reiciendis ratione nulla officia perspiciatis quo? Inventore.
                             </p>
@@ -99,288 +99,279 @@
                 </div>
             </div>
         </section>
-        <section id="eventos" class="pt-5 pb-5">
+        <section id="promocoes" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                    <h2 class="section-title text-center">Promoções <span class="text-colored">do dia</span></h2>
                 </div>
                 <div class="row mt-4">
                     <div class="col-md-4">
-                        <img src="./images/images/eventos/aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
-                        <h3 class="section-title text-colored fs-4">
-                            <i class="bi bi-calendar-heart-fill"></i>
-                            Aniversários
-                        </h3>
+                        <img src="https://atacadaobr.vtexassets.com/assets/vtex.file-manager-graphql/images/c2241a0a-24a2-4edd-9350-e40514043aed___4d3f97de4e3e7236dfb6e5e2d0420322.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Sempre o menor preço</h3>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam accusamus non exercitationem saepe eos officia quod laudantium odit vero veritatis dolor ducimus quisquam cum aut veniam harum laboriosam, magnam ipsa?
+                            Hidrate-se sem pesar no bolso! Aqui você encontra as melhores marcas de água pelos menores preços.
                         </p>
                     </div>
                     <div class="col-md-4">
-                        <img src="./images/images/eventos/casamento.jpg" alt="" class="d-block w-100 rounded mb-2">
-                        <h3 class="section-title text-colored fs-4">
-                            <i class="bi bi-arrow-through-heart-fill"></i>
-                            Recepção para casamentos
-                        </h3>
+                        <img src="https://atacadaobr.vtexassets.com/assets/vtex.file-manager-graphql/images/d7186ffb-f6ae-485d-bef6-20da956a5a72___53cfa54e7129707e3f4ecad2d64e58f0.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Prços imbativeis</h3>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam accusamus non exercitationem saepe eos officia quod laudantium odit vero veritatis dolor ducimus quisquam cum aut veniam harum laboriosam, magnam ipsa?
+                            Proteção garantida por muito menos. Aproveite as ofertas imperdíveis e economize!
                         </p>
                     </div>
                     <div class="col-md-4">
-                        <img src="./images/images/eventos/confraternizacoes.jpg" alt="" class="d-block w-100 rounded mb-2">
-                        <h3 class="section-title text-colored fs-4">
-                            <i class="bi bi-people-fill"></i>
-                            Confraternizações
-                        </h3>
+                        <img src="https://atacadaobr.vtexassets.com/assets/vtex.file-manager-graphql/images/a64d02be-cfff-492f-82b1-afe21a685926___a5160ca76b23f43ddf5a3fb8b0b1bd30.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Economia garantida</h3>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam accusamus non exercitationem saepe eos officia quod laudantium odit vero veritatis dolor ducimus quisquam cum aut veniam harum laboriosam, magnam ipsa?
+                            Prepare-se para o ano letivo com os melhores preços em materiais escolares. Qualidade e economia de verdade!
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="cardapio" class="pt-5 pb-5">
+        <section id="produtos" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-center mb-5">
-                        Nosso <span class="text-colored">cardápio</span>
+                        Nossos <span class="text-colored">produtos</span>
                     </h2>
                 </div>
                 <div class="row">
                     <aside class="col-md-2">
                         <nav class="nav nav-pills flex-column nav-cardapio">
-                            <button data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" type="button" class="fw-bold text-start nav-link text-colored active">Bebidas não alcoolicas</button>
-                            <button data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" type="button" class="fw-bold text-start nav-link text-colored">Bebidas alcoolicas</button>
-                            <button data-bs-toggle="tab" data-bs-target="#entradas" type="button" class="fw-bold text-start nav-link text-colored">Entradas</button>
-                            <button data-bs-toggle="tab" data-bs-target="#pratos-principais" type="button" class="fw-bold text-start nav-link text-colored">Pratos principais</button>
-                            <button data-bs-toggle="tab" data-bs-target="#sobremesas" type="button" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                            <button data-bs-toggle="tab" data-bs-target="#refigerantes" type="button" class="fw-bold text-start nav-link text-colored active">Refrigerantes</button>
+                            <button data-bs-toggle="tab" data-bs-target="#energeticos" type="button" class="fw-bold text-start nav-link text-colored">Energéticos e Isotônicos</button>
+                            <button data-bs-toggle="tab" data-bs-target="#salgadinhos" type="button" class="fw-bold text-start nav-link text-colored">Salgadinhos e lanches</button>
+                            <button data-bs-toggle="tab" data-bs-target="#mais-vendidos" type="button" class="fw-bold text-start nav-link text-colored">Mais vendidos</button>
+                            <button data-bs-toggle="tab" data-bs-target="#limpeza" type="button" class="fw-bold text-start nav-link text-colored">Limpeza</button>
                         </nav>
                     </aside>
                     <div class="col-md-10">
                         <div class="tab-content">
-                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                            <div class="tab-pane active" id="refigerantes">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/bebidas/coca-cola.jpg" alt="Coca-cola">
-                                        <h5 class="text-colored fw-bold">Coca-cola</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/268279-300-auto?width=300&height=auto&aspect=true" alt="Coca-cola">
+                                        <h5 class="text-colored fw-bold">Coca-cola 2,5L</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/bebidas/suco.jpg" alt="Suco de laranja">
-                                        <h5 class="text-colored fw-bold">Suco de laranja</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/273606-300-auto?width=300&height=auto&aspect=true" alt="Guaraná">
+                                        <h5 class="text-colored fw-bold">Guaraná 2,5L</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/bebidas/coca-cola.jpg" alt="Coca-cola">
-                                        <h5 class="text-colored fw-bold">Coca-cola</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/249847-300-auto?width=300&height=auto&aspect=true" alt="Sukita limão">
+                                        <h5 class="text-colored fw-bold">Sukita limão 2L</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/bebidas/suco.jpg" alt="Suco de laranja">
-                                        <h5 class="text-colored fw-bold">Suco de laranja</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/229594-300-auto?width=300&height=auto&aspect=true" alt="Pepsi Cola">
+                                        <h5 class="text-colored fw-bold">Pepsi Cola 2,5L</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/bebidas/coca-cola.jpg" alt="Coca-cola">
-                                        <h5 class="text-colored fw-bold">Coca-cola</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/276653-300-auto?width=300&height=auto&aspect=true" alt="Sprite">
+                                        <h5 class="text-colored fw-bold">Sprite 2L</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/bebidas/suco.jpg" alt="Suco de laranja">
-                                        <h5 class="text-colored fw-bold">Suco de laranja</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/229468-300-auto?width=300&height=auto&aspect=true" alt="Fanta Laranja">
+                                        <h5 class="text-colored fw-bold">Fanta Laranja 2L</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="bebidas-alcoolicas">
+                            <div class="tab-pane" id="energeticos">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/bebidas/cerveja.jpg" alt="Cerveja">
-                                        <h5 class="text-colored fw-bold">Cerveja</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/241074-300-auto?width=300&height=auto&aspect=true" alt="Energético Monster">
+                                        <h5 class="text-colored fw-bold">Energético Monster Energy Lata com 473ml</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/bebidas/vinho.jpg" alt="Vinho">
-                                        <h5 class="text-colored fw-bold">Vinho</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/274580-300-auto?width=300&height=auto&aspect=true" alt="Isotônico Gatorade">
+                                        <h5 class="text-colored fw-bold">Isotônico Gatorade Limão Pet com 500ml</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/bebidas/cerveja.jpg" alt="Cerveja">
-                                        <h5 class="text-colored fw-bold">Cerveja</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/310720-300-auto?width=300&height=auto&aspect=true" alt="Energético Red Bull">
+                                        <h5 class="text-colored fw-bold">Energético Red Bull Lata com 250ml</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/bebidas/vinho.jpg" alt="Vinho">
-                                        <h5 class="text-colored fw-bold">Vinho</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/282541-300-auto?width=300&height=auto&aspect=true" alt="Energético Baly">
+                                        <h5 class="text-colored fw-bold">Energético Baly Tradicional Pet com 2L</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/bebidas/cerveja.jpg" alt="Cerveja">
-                                        <h5 class="text-colored fw-bold">Cerveja</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/292669-300-auto?width=300&height=auto&aspect=true" alt="Energético Vibe">
+                                        <h5 class="text-colored fw-bold">Energético Vibe Energy Drink Pet com 2L</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/bebidas/vinho.jpg" alt="Vinho">
-                                        <h5 class="text-colored fw-bold">Vinho</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/311382-300-auto?width=300&height=auto&aspect=true" alt="Energético Furioso">
+                                        <h5 class="text-colored fw-bold">Energético Furioso Pet com 250ml</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="entradas">
+                            <div class="tab-pane" id="salgadinhos">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/entradas/entrada.jpg" alt="Nome da entrada">
-                                        <h5 class="text-colored fw-bold">Nome da entrada</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/321620-300-auto?width=300&height=auto&aspect=true" alt="Batata Palha Da Terrinha Pacote com 100g">
+                                        <h5 class="text-colored fw-bold">Batata Palha Da Terrinha Pacote com 100g</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/entradas/entrada.jpg" alt="Nome da entrada">
-                                        <h5 class="text-colored fw-bold">Nome da entrada</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/281989-300-auto?width=300&height=auto&aspect=true" alt="Salgadinho Batata Pringles Original Tubo com 104g">
+                                        <h5 class="text-colored fw-bold">Salgadinho Batata Pringles Original Tubo com 104g</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/entradas/entrada.jpg" alt="Nome da entrada">
-                                        <h5 class="text-colored fw-bold">Nome da entrada</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/310621-300-auto?width=300&height=auto&aspect=true" alt="Salgadinho Lucky Torcida Churrasco Pacote com 60g">
+                                        <h5 class="text-colored fw-bold">Salgadinho Lucky Torcida Churrasco Pacote com 60g</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/entradas/entrada.jpg" alt="Nome da entrada">
-                                        <h5 class="text-colored fw-bold">Nome da entrada</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/295930-300-auto?width=300&height=auto&aspect=true" alt="Salgadinho Elma Chips Ovinhos de amendoim Pacote com 400g">
+                                        <h5 class="text-colored fw-bold">Salgadinho Elma Chips Ovinhos de amendoim Pacote com 400g</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/entradas/entrada.jpg" alt="Nome da entrada">
-                                        <h5 class="text-colored fw-bold">Nome da entrada</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/252511-300-auto?width=300&height=auto&aspect=true" alt="Salgadinho Elma Chips Doritos Queijo Nacho Pacote com 300g">
+                                        <h5 class="text-colored fw-bold">Salgadinho Elma Chips Doritos Queijo Nacho Pacote com 300g</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/entradas/entrada.jpg" alt="Nome da entrada">
-                                        <h5 class="text-colored fw-bold">Nome da entrada</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/280215-300-auto?width=300&height=auto&aspect=true" alt="Barra de Cereais Nutry Avelã Unidade com 22g">
+                                        <h5 class="text-colored fw-bold">Barra de Cereais Nutry Avelã Unidade com 22g</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="pratos-principais">
+                            <div class="tab-pane" id="mais-vendidos">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/pratos/pizza.jpg" alt="Pizza">
-                                        <h5 class="text-colored fw-bold">Pizza</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/303194-300-auto?width=300&height=auto&aspect=true" alt="Pão de Forma Kim Castanha e Quinoa Pacote com 400g">
+                                        <h5 class="text-colored fw-bold">Pão de Forma Kim Castanha e Quinoa Pacote com 400g</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/pratos/salmao.jpg" alt="Salmão">
-                                        <h5 class="text-colored fw-bold">Salmão</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/312233-300-auto?width=300&height=auto&aspect=true" alt="Maionese Hellmanns Sachê com 200g">
+                                        <h5 class="text-colored fw-bold">Maionese Hellmanns Sachê com 200g</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/pratos/pizza.jpg" alt="Pizza">
-                                        <h5 class="text-colored fw-bold">Pizza</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/318962-300-auto?width=300&height=auto&aspect=true" alt="Folha de Alumínio Wyda 45cm x 7,5m Rolo">
+                                        <h5 class="text-colored fw-bold">Folha de Alumínio Wyda 45cm x 7,5m Rolo</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/pratos/salmao.jpg" alt="Salmão">
-                                        <h5 class="text-colored fw-bold">Salmão</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/318966-300-auto?width=300&height=auto&aspect=true" alt="Filtro de Papel Para Café Brigitta 103 Caixeta com 30 unidades">
+                                        <h5 class="text-colored fw-bold">Filtro de Papel Para Café Brigitta 103 Caixeta com 30 unidades</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/pratos/pizza.jpg" alt="Pizza">
-                                        <h5 class="text-colored fw-bold">Pizza</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/251914-300-auto?width=300&height=auto&aspect=true" alt="Lava Roupas Líquido Urca Bombona com 5L">
+                                        <h5 class="text-colored fw-bold">Lava Roupas Líquido Urca Bombona com 5L</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/pratos/salmao.jpg" alt="Salmão">
-                                        <h5 class="text-colored fw-bold">Salmão</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/233416-300-auto?width=300&height=auto&aspect=true" alt="Papel Higiênico Personal Vip Folha Dupla - 30m Pacote com 16 rolos">
+                                        <h5 class="text-colored fw-bold">Papel Higiênico Personal Vip Folha Dupla - 30m Pacote com 16 rolos</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="sobremesas">
+                            <div class="tab-pane" id="limpeza">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/sobremesas/bolo.jpg" alt="Bolo de chocolate">
-                                        <h5 class="text-colored fw-bold">Bolo de chocolate</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/331581-300-auto?width=300&height=auto&aspect=true" alt="Detergente Líquido Ypê Clear Frasco com 500ml">
+                                        <h5 class="text-colored fw-bold">Detergente Líquido Ypê Clear Frasco com 500ml</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
-                                        <h5 class="text-colored fw-bold">Cupcake</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/278611-300-auto?width=300&height=auto&aspect=true" alt="Lã de Aço Bombril Pacote com 60g">
+                                        <h5 class="text-colored fw-bold">Lã de Aço Bombril Pacote com 60g</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/sobremesas/bolo.jpg" alt="Bolo de chocolate">
-                                        <h5 class="text-colored fw-bold">Bolo de chocolate</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/268473-300-auto?width=300&height=auto&aspect=true" alt="Limpador Multiuso Veja Original Frasco com 500ml">
+                                        <h5 class="text-colored fw-bold">Limpador Multiuso Veja Original Frasco com 500ml</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
-                                        <h5 class="text-colored fw-bold">Cupcake</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/267885-300-auto?width=300&height=auto&aspect=true" alt="Água Sanitária Super Candida Bombona com 5L">
+                                        <h5 class="text-colored fw-bold">Água Sanitária Super Candida Bombona com 5L</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/sobremesas/bolo.jpg" alt="Bolo de chocolate">
-                                        <h5 class="text-colored fw-bold">Bolo de chocolate</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/277933-300-auto?width=300&height=auto&aspect=true" alt="Esponja Scotch-Brite Pacote com 4 unidades">
+                                        <h5 class="text-colored fw-bold">Esponja Scotch-Brite Pacote com 4 unidades</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="images/images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
-                                        <h5 class="text-colored fw-bold">Cupcake</h5>
+                                        <img class="d-block w-100" src="https://atacadaobr.vtexassets.com/arquivos/ids/278556-300-auto?width=300&height=auto&aspect=true" alt="Álcool Zumbi 46º INPM Frasco com 1L">
+                                        <h5 class="text-colored fw-bold">Álcool Zumbi 46º INPM Frasco com 1L</h5>
                                         <p>
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit..
                                         </p>
@@ -459,10 +450,6 @@
             </div>
         </section>
     </div>
-
-    
-    
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
